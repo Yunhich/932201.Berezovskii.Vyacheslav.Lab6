@@ -1,11 +1,10 @@
-var cur_col = -1;   // -1 - left, 0 - center, 1 - right 
+var cur_col = -1;
 
 var f_cont_w = "90%"
 var s_cont_w = "50%"
 var f_img_w = "550px"
 var s_img_w = "100%"
 
-// 0 - small width, 1 - full width
 const cont_w = ["50%", "90%"]; 
 const img_w = ["calc(100% - 30px)", "550px"];
 const dog_pos = ["0", "calc(70px - 100%)"];
